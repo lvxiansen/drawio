@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-02T13:29:53.078Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="86E4qRzQhDmvIF_XJu2P" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-02T14:00:31.896Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="w9yEJcE-yyA5hfHj4-Wa" version="20.5.1" type="github">
   <diagram id="r3sxDyT0fpC5JQOG2hrh" name="第 1 页">
     <mxGraphModel dx="1185" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3000" math="0" shadow="0">
       <root>
@@ -71,13 +71,25 @@
           <mxGeometry x="1000" y="349" width="250" height="132" as="geometry" />
         </mxCell>
         <mxCell id="dBfdr0uVigZmpY6Dn77D-29" value="namespace管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1010" y="393.5" width="100" height="45" as="geometry" />
+          <mxGeometry x="1010" y="387.5" width="100" height="45" as="geometry" />
         </mxCell>
         <mxCell id="dBfdr0uVigZmpY6Dn77D-30" value="Kubernetes管理模块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1065" y="360.5" width="120" height="19" as="geometry" />
         </mxCell>
         <mxCell id="dBfdr0uVigZmpY6Dn77D-32" value="pod管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="393.5" width="120" height="46.5" as="geometry" />
+          <mxGeometry x="1120" y="386.75" width="120" height="46.5" as="geometry" />
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-33" value="数据层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="560" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-34" value="Mysql" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="545" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-35" value="etcd" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="545" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-36" value="webTerminal管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1065" y="440" width="110" height="33" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
