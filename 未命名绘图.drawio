@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-03T12:14:31.652Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="rEhxjtdQvmTn1p03ytuU" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-03T12:35:07.318Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="H-8q-Gtx1xx-7lm6tNdb" version="20.5.1" type="github">
   <diagram id="r3sxDyT0fpC5JQOG2hrh" name="第 1 页">
     <mxGraphModel dx="1185" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3000" math="1" shadow="0">
       <root>
@@ -118,11 +118,11 @@
         <mxCell id="dBfdr0uVigZmpY6Dn77D-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-54" target="dBfdr0uVigZmpY6Dn77D-56">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-54" value="进行聚集力的计算。先找出每个省的中心点，之后令该省的所有节点都靠近此中心节点。&lt;br&gt;$$v.vx = v.vx-(v.x-c.x)*\frac{(l-r)}{l}*alpha,v.vy = v.vy-(v.y-c.y)*\frac{(l-r)}{l}*alpha&lt;br&gt;$$&lt;br&gt;其中l为当前节点与中心节点距离，v为当前节点，c为当前节点所在簇的中心节点，r为事先规定好的节点的半径。" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-54" value="进行聚集力的计算。先找出每个省的中心点，之后令该省的所有节点都靠近此中心节点。&lt;br&gt;$$v.vx = v.vx-(v.x-c.x)*\frac{(l-r)}{l}*alpha&lt;br&gt;$$&lt;br&gt;其中l为当前节点与中心节点距离，v为当前节点，c为当前节点所在簇的中心节点，r为事先规定好的节点的半径。" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="171.97" y="1330" width="605.18" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-56" value="进行节点分层计算。根据用户事先设定好的设备类型优先级，设备网络类型优先级进行排序。具体算法如下：先将当前所有节点的{A属性，B属性}去重并排序，排序方法为先比较A属性优先级，之后再比较B属性优先级。排序后将" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="248.48000000000005" y="1540" width="452.15" height="90" as="geometry" />
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-56" value="进行节点分层计算。根据用户事先设定好的设备类型优先级，设备网络类型优先级进行排序。具体算法如下：&lt;br&gt;1、先将当前所有节点的{A属性，B属性}去重并排序放入数组中，排序方法为先比较A属性优先级，之后再比较B属性优先级。&lt;br&gt;2、遍历数组，将“A属性-B属性”作为键，在数组中下标作为值，得出当前的组合属性优先级规则并放入字典中。遍历全部节点数组，得到当前节点的属性优先级规则，从字典中取得相应优先级作为层数。&lt;br&gt;3、设置节点在屏幕中的坐标。公式为$$v.y= (v.layer-maxLayer/2)*levelDis$$" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="248.48" y="1540" width="481.52" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
