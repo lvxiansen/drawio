@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-03T10:19:45.273Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="gdBEBr4sb5X_nzS1W8zj" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-03T12:14:31.652Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="rEhxjtdQvmTn1p03ytuU" version="20.5.1" type="github">
   <diagram id="r3sxDyT0fpC5JQOG2hrh" name="第 1 页">
     <mxGraphModel dx="1185" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3000" math="1" shadow="0">
       <root>
@@ -107,16 +107,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dBfdr0uVigZmpY6Dn77D-48" value="对斥力进行计算。改进斥力计算方法。引入地理距离变量。&lt;br&gt;$$wx = v.x-u.x,&lt;br&gt;ratio = dis/averDis,&lt;br&gt;&amp;nbsp;v.vx = v.vx+ \frac{wx*alpha*ratio^2}{dist} $$&lt;br&gt;其中wx为两节点的x向量距离差，bias为两节点距离与平均距离比值，vx为节点在x向量上的速度" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="216.56" y="950" width="523.44" height="110" as="geometry" />
+          <mxGeometry x="213.28" y="950" width="523.44" height="110" as="geometry" />
         </mxCell>
         <mxCell id="dBfdr0uVigZmpY6Dn77D-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-52" target="dBfdr0uVigZmpY6Dn77D-54">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dBfdr0uVigZmpY6Dn77D-52" value="对引力进行计算。改进引力计算方法。引入偏移度的概念，计算每个节点的(出度)/(出度+入度)，以此来减小对于度较大节点的引力，提高稳定性。&lt;br&gt;$$wx = v.x&amp;nbsp; - u.x,bias=\frac{count(src[i])}{count(src[i])+count(tar[i])}$$&lt;br&gt;$$v.vx=v.vx-x*alpha*bias[i],u.vx=u.vx+x*alpha*(1-bias[i])&lt;br&gt;$$" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="175.7" y="1110" width="604.3" height="150" as="geometry" />
+          <mxGeometry x="172.85" y="1110" width="604.3" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-54" value="进行聚集力的计算。先找出每个省的中心点，之后令该省的所有节点都靠近此中心节点。&lt;br&gt;$$v.vx = v.vx-(v.x-c.x)*\frac{(l-r)}{l}*alpha,v.vy = v.vy-(v.y-c.y)*\frac{(l-r)}{l}*alpha&lt;br&gt;$$&lt;br&gt;其中l为当前节点与中心节点距离，d为当前节点，c为当前节点所在簇的中心节点，r为事先规定好的节点的半径。" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="174.82" y="1330" width="606.05" height="80" as="geometry" />
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-54" target="dBfdr0uVigZmpY6Dn77D-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-54" value="进行聚集力的计算。先找出每个省的中心点，之后令该省的所有节点都靠近此中心节点。&lt;br&gt;$$v.vx = v.vx-(v.x-c.x)*\frac{(l-r)}{l}*alpha,v.vy = v.vy-(v.y-c.y)*\frac{(l-r)}{l}*alpha&lt;br&gt;$$&lt;br&gt;其中l为当前节点与中心节点距离，v为当前节点，c为当前节点所在簇的中心节点，r为事先规定好的节点的半径。" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="171.97" y="1330" width="605.18" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-56" value="进行节点分层计算。根据用户事先设定好的设备类型优先级，设备网络类型优先级进行排序。具体算法如下：先将当前所有节点的{A属性，B属性}去重并排序，排序方法为先比较A属性优先级，之后再比较B属性优先级。排序后将" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="248.48000000000005" y="1540" width="452.15" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
