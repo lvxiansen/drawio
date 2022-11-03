@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-03T12:48:29.508Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="19OPvkipG-p8FkOIIdSr" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-03T13:03:52.330Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="oMzpj0MggTcHQMDyyemU" version="20.5.1" type="github">
   <diagram id="r3sxDyT0fpC5JQOG2hrh" name="第 1 页">
-    <mxGraphModel dx="1185" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3000" math="1" shadow="0">
+    <mxGraphModel dx="1673" dy="927" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3000" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -94,41 +94,74 @@
         <mxCell id="dBfdr0uVigZmpY6Dn77D-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-37" target="dBfdr0uVigZmpY6Dn77D-46">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-37" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="415" y="760" width="120" height="60" as="geometry" />
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-37" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="408.62" y="750" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-46" target="dBfdr0uVigZmpY6Dn77D-48">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-46" target="dBfdr0uVigZmpY6Dn77D-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-46" value="初始化布局，添加节点的坐标属性，阈值alpha" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="415" y="860" width="120" height="60" as="geometry" />
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-46" value="初始化布局，添加节点的坐标属性，系数alpha，系数最小值alphaMin" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="259" y="810" width="413.77" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dBfdr0uVigZmpY6Dn77D-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-48" target="dBfdr0uVigZmpY6Dn77D-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-48" value="对斥力进行计算。改进斥力计算方法。引入地理距离变量。&lt;br&gt;$$wx = v.x-u.x,&lt;br&gt;ratio = dis/averDis,&lt;br&gt;&amp;nbsp;v.vx = v.vx+ \frac{wx*alpha*ratio^2}{dist} $$&lt;br&gt;其中wx为两节点的x向量距离差，bias为两节点距离与平均距离比值，vx为节点在x向量上的速度" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="213.28" y="950" width="523.44" height="110" as="geometry" />
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-48" value="对斥力进行计算。改进斥力计算方法。引入地理距离变量。&lt;br&gt;$$wx = v.x-u.x,&lt;br&gt;ratio = dis/averDis,&lt;br&gt;&amp;nbsp;v.vx = v.vx+ \frac{wx*alpha*ratio^2}{dist} $$&lt;br&gt;其中wx为两节点的x向量距离差，bias为两节点距离与平均距离比值，vx为节点在x向量上的速度" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="115" y="989" width="680" height="110" as="geometry" />
         </mxCell>
         <mxCell id="dBfdr0uVigZmpY6Dn77D-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-52" target="dBfdr0uVigZmpY6Dn77D-54">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-52" value="对引力进行计算。改进引力计算方法。引入偏移度的概念，计算每个节点的(出度)/(出度+入度)，以此来减小对于度较大节点的引力，提高稳定性。&lt;br&gt;`wx = v.x&amp;nbsp; - u.x,bias=\frac{count(src[i])}{count(src[i])+count(tar[i])}`&lt;br&gt;$$v.vx=v.vx-x*alpha*bias[i],u.vx=u.vx+x*alpha*(1-bias[i])&lt;br&gt;$$" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="176.42" y="1110" width="597.15" height="110" as="geometry" />
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-52" value="对引力进行计算。改进引力计算方法。引入偏移度的概念，计算每个节点的(出度)/(出度+入度)，以此来减小对于度较大节点的引力，提高稳定性。&lt;br&gt;`wx = v.x&amp;nbsp; - u.x,bias=\frac{count(src[i])}{count(src[i])+count(tar[i])}`&lt;br&gt;$$v.vx=v.vx-x*alpha*bias[i],u.vx=u.vx+x*alpha*(1-bias[i])&lt;br&gt;$$" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1130" width="690" height="120" as="geometry" />
         </mxCell>
         <mxCell id="dBfdr0uVigZmpY6Dn77D-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-54" target="dBfdr0uVigZmpY6Dn77D-56">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-54" value="进行聚集力的计算。先找出每个省的中心点，之后令该省的所有节点都靠近此中心节点。&lt;br&gt;\(v.vx = v.vx-(v.x-c.x)*\frac{(l-r)}{l}*alpha&lt;br&gt;\)&lt;br&gt;其中l为当前节点与中心节点距离，v为当前节点，c为当前节点所在簇的中心节点，r为事先规定好的节点的半径。" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="170.98" y="1290" width="608.03" height="90" as="geometry" />
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-54" value="进行聚集力的计算。先找出每个省的中心点，之后令该省的所有节点都靠近此中心节点。&lt;br&gt;\(v.vx = v.vx-(v.x-c.x)*\frac{(l-r)}{l}*alpha&lt;br&gt;\)&lt;br&gt;其中l为当前节点与中心节点距离，v为当前节点，c为当前节点所在簇的中心节点，r为事先规定好的节点的半径。" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1280" width="700" height="100" as="geometry" />
         </mxCell>
         <mxCell id="dBfdr0uVigZmpY6Dn77D-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-56" target="dBfdr0uVigZmpY6Dn77D-58">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-56" value="进行节点分层计算。根据用户事先设定好的设备类型优先级，设备网络类型优先级进行排序。具体算法如下：&lt;br&gt;1、先将当前所有节点的{A属性，B属性}去重并排序放入数组中，排序方法为先比较A属性优先级，之后再比较B属性优先级。&lt;br&gt;2、遍历数组，将“A属性-B属性”作为键，在数组中下标作为值，得出当前的组合属性优先级规则并放入字典中。遍历全部节点数组，得到当前节点的属性优先级规则，从字典中取得相应优先级作为层数。&lt;br&gt;3、设置节点在屏幕中的坐标。公式为\(v.y= (v.layer-maxLayer/2)*levelDis\),其中v.layer为当前节点的层级，maxLayer为最大层级，levelDis 为层间距离" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
-          <mxGeometry x="129.39000000000001" y="1440" width="691.2" height="120" as="geometry" />
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-56" value="进行节点分层计算。根据用户事先设定好的设备类型优先级，设备网络类型优先级进行排序。具体算法如下：&lt;br&gt;1、先将当前所有节点的{A属性，B属性}去重并排序放入数组中，排序方法为先比较A属性优先级，之后再比较B属性优先级。&lt;br&gt;2、遍历数组，将“A属性-B属性”作为键，在数组中下标作为值，得出当前的组合属性优先级规则并放入字典中。遍历全部节点数组，得到当前节点的属性优先级规则，从字典中取得相应优先级作为层数。&lt;br&gt;3、设置节点在屏幕中的坐标。公式为\(v.y= (v.layer-maxLayer/2)*levelDis\),其中v.layer为当前节点的层级，maxLayer为最大层级，levelDis 为层间距离" style="whiteSpace=wrap;html=1;rounded=0;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1400" width="700" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-58" value="进行节点移动位置的计算。在每一次迭代中，计算当前的alpha值，使alpha不断衰减.`alpha= alpha+&amp;nbsp; (alphaTarget – alpha)* alphaDecay`&lt;br&gt;其中alphaDecay 表示 alpha每次的衰减率,衰减系数决定了布局冷却的快慢，alphaTarget为最终稳定时的状态。&lt;br&gt;" style="whiteSpace=wrap;html=1;align=center;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="241.23000000000002" y="1610" width="467.51" height="110" as="geometry" />
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-58" target="dBfdr0uVigZmpY6Dn77D-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010" y="900" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1010" y="1610" />
+              <mxPoint x="1010" y="920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-58" value="进行节点移动位置的计算。在每一次迭代中，计算当前的alpha值，使alpha不断衰减.\(alpha= alpha+&amp;nbsp; (alphaTarget – alpha)* alphaDecay\)&lt;br&gt;其中alphaDecay 表示 alpha每次的衰减率,衰减系数决定了布局冷却的快慢，alphaTarget为最终稳定时的状态。&lt;br&gt;将alpha传进斥力、引力及聚集力中，得到当前合力作用下的节点速度。更新此时节点位置&lt;br&gt;\(v.x=v.x+v.vx\)&lt;br&gt;不断进行此步骤，直到alpha小于事先设定好的阈值������������������ℎ������������������������，停止迭代，完成布局。" style="whiteSpace=wrap;html=1;align=center;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="95.63000000000001" y="1550" width="708.74" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-60" value="alpha&amp;lt;alphaMin?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="378" y="900" width="171.25" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-68" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-60" target="dBfdr0uVigZmpY6Dn77D-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="950" as="sourcePoint" />
+            <mxPoint x="600" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-69" value="N" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="dBfdr0uVigZmpY6Dn77D-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-72" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-60" target="dBfdr0uVigZmpY6Dn77D-74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="266.23" y="930" as="sourcePoint" />
+            <mxPoint x="240" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-73" value="Y" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="dBfdr0uVigZmpY6Dn77D-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-74" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="100" y="890" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
