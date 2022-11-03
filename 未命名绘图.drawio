@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-03T02:35:44.015Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="uF7_83frse80PQlZYd2Z" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-03T09:21:58.081Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="B2J0NhW8eKT1xhtMfB1T" version="20.5.1" type="github">
   <diagram id="r3sxDyT0fpC5JQOG2hrh" name="第 1 页">
-    <mxGraphModel dx="1185" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3000" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3000" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -90,6 +90,27 @@
         </mxCell>
         <mxCell id="dBfdr0uVigZmpY6Dn77D-36" value="webTerminal管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1065" y="440" width="110" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-37" target="dBfdr0uVigZmpY6Dn77D-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-37" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="415" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-46" target="dBfdr0uVigZmpY6Dn77D-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-46" value="初始化布局，添加节点的坐标属性，阈值alpha" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="415" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-48" target="dBfdr0uVigZmpY6Dn77D-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-48" value="对斥力进行计算。改进斥力计算方法。&lt;br&gt;$$wx = v.x-u.x,&lt;br&gt;bias = dis/averDis&lt;br&gt;&amp;nbsp;v.vx = v.vx + \frac{w*alpha*bias^2}{dist} $$,&lt;br&gt;其中w为两节点的x向量距离差，bias为两节点距离与平均距离比值，vx为两节点在x向量上的速度" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="216.56" y="980" width="516.87" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-52" value="对引力进行计算。改进引力计算方法。引入偏移度的概念，" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414.995" y="1180" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
