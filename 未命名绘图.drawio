@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-04T08:26:35.044Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="hOmMyC_m5zaLNZ9FVAt9" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-04T09:10:54.997Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="hAQ2htgoV9Lfpr5c1HXO" version="20.5.1" type="github">
   <diagram id="r3sxDyT0fpC5JQOG2hrh" name="第 1 页">
-    <mxGraphModel dx="1185" dy="657" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3000" math="1" shadow="0">
+    <mxGraphModel dx="4063" dy="2251" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -234,6 +234,58 @@
         </mxCell>
         <mxCell id="dBfdr0uVigZmpY6Dn77D-114" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="102" y="1754" width="106" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-119" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-117" target="dBfdr0uVigZmpY6Dn77D-118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-117" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="380" y="2429" width="164" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-121" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-118" target="dBfdr0uVigZmpY6Dn77D-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-118" value="计算双平面中每个平面节点数量" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="371.5" y="2505" width="181" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-123" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-120" target="dBfdr0uVigZmpY6Dn77D-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-120" value="将节点放入其所在的平面数组中，赋予唯一编号" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="368.5" y="2584" width="187" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-125" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-122" target="dBfdr0uVigZmpY6Dn77D-124">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-122" value="对每一个平面数组，将其中每个节点的编号放缩到[0,2π]的范围内,取得其极角θ" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="354.5" y="2658" width="216" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-127" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-124" target="dBfdr0uVigZmpY6Dn77D-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-124" value="获得所在区域的边长l，以其作为单个平面的直径r，使平局具有自适应性" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="349" y="2738" width="227" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-133" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-126" target="dBfdr0uVigZmpY6Dn77D-136">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="462.58333333333326" y="2898" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-126" value="遍历每个节点，设置其坐标&lt;br&gt;v.x=r*cosθ/π&lt;br&gt;v.z=r*sinθ/π&lt;br&gt;v.y=l/4" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="362.31" y="2812" width="200.38" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-135" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="dBfdr0uVigZmpY6Dn77D-134">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="462.58333333333326" y="2933" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-134" value="" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="402.5" y="3000.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-136" value="进行布局" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="402.5" y="2900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-140" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="677" y="2990" width="40" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
