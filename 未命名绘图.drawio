@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-03T13:08:44.681Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="gW8VHJg_B1piSUKzMAvh" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-04T07:41:07.079Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="bAy_TwMNE596qiKvYnur" version="20.5.1" type="github">
   <diagram id="r3sxDyT0fpC5JQOG2hrh" name="第 1 页">
     <mxGraphModel dx="1185" dy="657" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3000" math="1" shadow="0">
       <root>
@@ -162,6 +162,78 @@
         </mxCell>
         <mxCell id="dBfdr0uVigZmpY6Dn77D-74" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="91" y="942" width="106" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-96" target="dBfdr0uVigZmpY6Dn77D-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-96" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="431.44000000000005" y="1665" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-98" target="dBfdr0uVigZmpY6Dn77D-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-98" value="初始化布局，添加节点的坐标属性，系数alpha，系数最小值alphaMin" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="281" y="1705" width="410.88" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-100" target="dBfdr0uVigZmpY6Dn77D-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-100" value="对斥力进行计算。改进斥力计算方法。引入地理距离变量。&lt;br&gt;\(wx = v.x-u.x,&lt;br&gt;ratio = dis/averDis,&lt;br&gt;&amp;nbsp;v.vx = v.vx+ \frac{wx*alpha*ratio^2}{dist}\)" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="241.94" y="1812" width="489" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-102" target="dBfdr0uVigZmpY6Dn77D-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-102" value="对引力进行计算。改进引力计算方法。引入偏移度的概念，计算每个节点的(出度)/(出度+入度)，以此来减小对于度较大节点的引力，提高稳定性。&lt;br&gt;`wx = v.x&amp;nbsp; - u.x,bias=\frac{count(src[i])}{count(src[i])+count(tar[i])}`&lt;br&gt;` v.vx=v.vx-x*alpha*bias[i],u.vx=u.vx+x*alpha*(1-bias[i])`" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="142.65" y="1905" width="686.69" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-104" target="dBfdr0uVigZmpY6Dn77D-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-104" value="进行聚集力的计算。先找出每个省的中心点，之后令该省的所有节点都靠近此中心节点。&lt;br&gt;\(v.vx = v.vx-(v.x-c.x)*\frac{(l-r)}{l}*alpha&lt;br&gt;\)" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="130.57" y="2018" width="710.84" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-106" target="dBfdr0uVigZmpY6Dn77D-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-106" value="进行节点分层计算。根据用户事先设定好的设备类型优先级，设备网络类型优先级进行排序。具体算法如下：&lt;br&gt;1、先将当前所有节点的{A属性，B属性}去重并排序放入数组中。&lt;br&gt;2、遍历数组，将“A属性-B属性”作为键，在数组中下标作为值，得出当前的组合属性优先级规则并放入字典中。遍历全部节点数组，得到当前节点的属性优先级属性值。&lt;br&gt;3、设置节点在屏幕中的坐标。公式为\(v.y= (v.layer-maxLayer/2)*levelDis\)" style="whiteSpace=wrap;html=1;rounded=0;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="147.72" y="2104" width="677.44" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-108">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="572" y="1770" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="905" y="2248" />
+              <mxPoint x="905" y="1770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-108" value="进行节点移动位置的计算。在每一次迭代中，计算当前的alpha值，使alpha不断衰减.\(alpha= alpha+&amp;nbsp; (alphaTarget – alpha)* alphaDecay\)&lt;br&gt;更新此时节点位置\(v.x=v.x+v.vx\)" style="whiteSpace=wrap;html=1;align=center;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="145.01999999999998" y="2217" width="682.84" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-109" value="alpha&amp;lt;alphaMin?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="400.37" y="1750" width="171.25" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-110" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-109" target="dBfdr0uVigZmpY6Dn77D-100">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="581" y="1762" as="sourcePoint" />
+            <mxPoint x="611" y="1782" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-111" value="N" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="dBfdr0uVigZmpY6Dn77D-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-112" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-109" target="dBfdr0uVigZmpY6Dn77D-114">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="277.23" y="1742" as="sourcePoint" />
+            <mxPoint x="251" y="1732" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-113" value="Y" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="dBfdr0uVigZmpY6Dn77D-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-114" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="102" y="1754" width="106" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
