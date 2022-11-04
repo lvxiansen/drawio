@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-04T09:11:45.566Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="KYHHT5UlbwH7kBu_--uz" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-04T09:16:54.105Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="KzUhQwG_4IUBbC57UFdL" version="20.5.1" type="github">
   <diagram id="r3sxDyT0fpC5JQOG2hrh" name="第 1 页">
     <mxGraphModel dx="1422" dy="788" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="1" shadow="0">
       <root>
@@ -238,51 +238,51 @@
         <mxCell id="dBfdr0uVigZmpY6Dn77D-119" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-117" target="dBfdr0uVigZmpY6Dn77D-118">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-117" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="375.62" y="2356" width="164" height="42" as="geometry" />
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-117" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="2360" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="dBfdr0uVigZmpY6Dn77D-121" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-118" target="dBfdr0uVigZmpY6Dn77D-120">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-118" value="计算双平面中每个平面节点数量" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="367.12" y="2432" width="181" height="52" as="geometry" />
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-118" value="计算双平面中每个平面节点数量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="2439" width="440" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dBfdr0uVigZmpY6Dn77D-123" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-120" target="dBfdr0uVigZmpY6Dn77D-122">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-120" value="将节点放入其所在的平面数组中，赋予唯一编号" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="364.12" y="2511" width="187" height="49" as="geometry" />
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-120" value="将节点放入其所在的平面数组中，赋予唯一编号" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="485" y="2533" width="430" height="50" as="geometry" />
         </mxCell>
         <mxCell id="dBfdr0uVigZmpY6Dn77D-125" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-122" target="dBfdr0uVigZmpY6Dn77D-124">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-122" value="对每一个平面数组，将其中每个节点的编号放缩到[0,2π]的范围内,取得其极角θ" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="350.12" y="2585" width="216" height="53" as="geometry" />
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-122" value="对每一个平面数组，将其中每个节点的编号放缩到[0,2π]的范围内,取得其极角θ" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="2627" width="440" height="40" as="geometry" />
         </mxCell>
         <mxCell id="dBfdr0uVigZmpY6Dn77D-127" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-124" target="dBfdr0uVigZmpY6Dn77D-126">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-124" value="获得所在区域的边长l，以其作为单个平面的直径r，使平局具有自适应性" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="344.62" y="2665" width="227" height="53" as="geometry" />
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-124" value="获得所在区域的边长l，以其作为单个平面的直径r，使平局具有自适应性" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="475" y="2717" width="450" height="40" as="geometry" />
         </mxCell>
         <mxCell id="dBfdr0uVigZmpY6Dn77D-133" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-126" target="dBfdr0uVigZmpY6Dn77D-136">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="458.20333333333326" y="2825" as="targetPoint" />
+            <mxPoint x="728.2033333333333" y="2832" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-126" value="遍历每个节点，设置其坐标&lt;br&gt;v.x=r*cosθ/π&lt;br&gt;v.z=r*sinθ/π&lt;br&gt;v.y=l/4" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="357.93" y="2739" width="200.38" height="61" as="geometry" />
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-126" value="遍历每个节点，设置其坐标&lt;br&gt;\(v.x=r*cosθ/π\)&lt;br&gt;\(v.z=r*sinθ/π\)&lt;br&gt;\(v.y=l/4\)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="2796" width="440" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-135" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="dBfdr0uVigZmpY6Dn77D-134">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-135" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-136" target="dBfdr0uVigZmpY6Dn77D-134">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="458.20333333333326" y="2860" as="sourcePoint" />
+            <mxPoint x="728.2033333333333" y="2867" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-134" value="结束" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="392.37" y="2917" width="131.5" height="37" as="geometry" />
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-134" value="结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="635" y="2990" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-136" value="进行布局" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="386.37" y="2843" width="143.5" height="34" as="geometry" />
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-136" value="进行布局" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="2900" width="410" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
