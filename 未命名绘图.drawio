@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-07T14:07:56.971Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Odq9U2YZAcstmt5Xo56i" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-07T15:20:15.229Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="BVhYFLsHauc4PW5GoUpW" version="20.5.1" type="github">
   <diagram id="r3sxDyT0fpC5JQOG2hrh" name="第 1 页">
     <mxGraphModel dx="1422" dy="754" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="1" shadow="0">
       <root>
@@ -86,7 +86,7 @@
           <mxGeometry x="530" y="545" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dBfdr0uVigZmpY6Dn77D-35" value="etcd" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="900" y="545" width="120" height="60" as="geometry" />
+          <mxGeometry x="915" y="543" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dBfdr0uVigZmpY6Dn77D-36" value="webTerminal管理" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1065" y="440" width="110" height="33" as="geometry" />
@@ -283,6 +283,9 @@
         </mxCell>
         <mxCell id="dBfdr0uVigZmpY6Dn77D-136" value="进行布局" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="495" y="2900" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2SKs2M4d_WHa_o-yYan-1" value="Redis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="727" y="543" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
