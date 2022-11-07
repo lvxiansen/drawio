@@ -1,133 +1,133 @@
-<mxfile host="app.diagrams.net" modified="2022-11-04T09:34:40.149Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="dyAEpeXnejuaQ3BMmDh_" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-07T14:07:56.971Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Odq9U2YZAcstmt5Xo56i" version="20.5.1" type="github">
   <diagram id="r3sxDyT0fpC5JQOG2hrh" name="第 1 页">
-    <mxGraphModel dx="1422" dy="788" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="1" shadow="0">
+    <mxGraphModel dx="1422" dy="754" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="270" y="220" width="1020" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-6" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-5" target="dBfdr0uVigZmpY6Dn77D-5">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-6" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="dBfdr0uVigZmpY6Dn77D-5" target="dBfdr0uVigZmpY6Dn77D-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="250" y="300" as="sourcePoint" />
             <mxPoint x="1280" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-7" value="UI层&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-7" value="UI层&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="300" y="255" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-8" value="拓扑展示" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-8" value="拓扑展示" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="450" y="240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-9" value="拓扑交互" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-9" value="拓扑交互" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="735" y="240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-10" value="Kubernetes管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-10" value="Kubernetes管理" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1030" y="240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-11" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-11" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="270" y="520" as="sourcePoint" />
             <mxPoint x="1290" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-12" value="业务层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-12" value="业务层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="280" y="400" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="348.5" width="260" height="131.5" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-15" value="&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;可视化拓扑布局模块&lt;/span&gt;&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-15" value="&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;可视化拓扑布局模块&lt;/span&gt;&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="420" y="357.5" width="110" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-16" value="力导引层级布局算法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-16" value="力导引层级布局算法" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="370" y="393.5" width="110" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-17" value="双平面布局算法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-17" value="双平面布局算法" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="500" y="392.75" width="110" height="40.5" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="665" y="342.5" width="275" height="137.5" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-21" value="拓扑交互控制模块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-21" value="拓扑交互控制模块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="740" y="357.5" width="110" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-22" value="节点配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-22" value="节点配置" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="680" y="391" width="70" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-23" value="链路配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-23" value="链路配置" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="767.5" y="391" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-24" value="端口配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-24" value="端口配置" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="850" y="390.5" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-26" value="拓扑数据导入" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-26" value="拓扑数据导入" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="680" y="430" width="100" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-27" value="拓扑数据导出" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-27" value="拓扑数据导出" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="800" y="430" width="120" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-28" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-28" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1000" y="349" width="250" height="132" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-29" value="namespace管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-29" value="namespace管理" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1010" y="387.5" width="100" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-30" value="Kubernetes管理模块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-30" value="Kubernetes管理模块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1065" y="360.5" width="120" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-32" value="pod管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-32" value="pod管理" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1120" y="386.75" width="120" height="46.5" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-33" value="数据层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-33" value="数据层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="280" y="560" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-34" value="Mysql" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-34" value="Mysql" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="530" y="545" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-35" value="etcd" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-35" value="etcd" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="900" y="545" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-36" value="webTerminal管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-36" value="webTerminal管理" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1065" y="440" width="110" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-37" target="dBfdr0uVigZmpY6Dn77D-46">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dBfdr0uVigZmpY6Dn77D-37" target="dBfdr0uVigZmpY6Dn77D-46" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-37" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-37" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="420.44" y="853" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-46" target="dBfdr0uVigZmpY6Dn77D-60">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dBfdr0uVigZmpY6Dn77D-46" target="dBfdr0uVigZmpY6Dn77D-60" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-46" value="初始化布局，添加节点的坐标属性，系数alpha，系数最小值alphaMin" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-46" value="初始化布局，添加节点的坐标属性，系数alpha，系数最小值alphaMin" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="270" y="893" width="410.88" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-48" target="dBfdr0uVigZmpY6Dn77D-52">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dBfdr0uVigZmpY6Dn77D-48" target="dBfdr0uVigZmpY6Dn77D-52" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-48" value="对斥力进行计算。改进斥力计算方法。引入地理距离变量。&lt;br&gt;\(wx = v.x-u.x,&lt;br&gt;ratio = dis/averDis,&lt;br&gt;&amp;nbsp;v.vx = v.vx+ \frac{wx*alpha*ratio^2}{dist}\)&lt;br&gt;其中wx为两节点的x向量距离差，bias为两节点距离与平均距离比值，vx为节点在x向量上的速度" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-48" value="对斥力进行计算。改进斥力计算方法。引入地理距离变量。&lt;br&gt;$$wx = v.x-u.x,&lt;br&gt;ratio = averDis/dis,&lt;br&gt;&amp;nbsp;v.vx = v.vx+ \frac{wx*alpha*ratio^2}{dist}$$&lt;br&gt;其中wx为两节点的x向量距离差，bias为两节点距离与平均距离比值，vx为节点在x向量上的速度" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="116.31" y="995" width="726" height="77" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-52" target="dBfdr0uVigZmpY6Dn77D-54">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dBfdr0uVigZmpY6Dn77D-52" target="dBfdr0uVigZmpY6Dn77D-54" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-52" value="对引力进行计算。改进引力计算方法。引入偏移度的概念，计算每个节点的(出度)/(出度+入度)，以此来减小对于度较大节点的引力，提高稳定性。&lt;br&gt;`wx = v.x&amp;nbsp; - u.x,bias=\frac{count(src[i])}{count(src[i])+count(tar[i])}`&lt;br&gt;` v.vx=v.vx-x*alpha*bias[i],u.vx=u.vx+x*alpha*(1-bias[i])`" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-52" value="对引力进行计算。改进引力计算方法。引入偏移度的概念，计算每个节点的(出度)/(出度+入度)，以此来减小对于度较大节点的引力，提高稳定性。&lt;br&gt;`wx = v.x&amp;nbsp; - u.x,bias=\frac{count(src[i])}{count(src[i])+count(tar[i])}`&lt;br&gt;` v.vx=v.vx-x*alpha*bias[i],u.vx=u.vx+x*alpha*(1-bias[i])`" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="136.31" y="1090" width="686" height="91" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-54" target="dBfdr0uVigZmpY6Dn77D-56">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dBfdr0uVigZmpY6Dn77D-54" target="dBfdr0uVigZmpY6Dn77D-56" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-54" value="进行聚集力的计算。先找出每个省的中心点，之后令该省的所有节点都靠近此中心节点。&lt;br&gt;\(v.vx = v.vx-(v.x-c.x)*\frac{(l-r)}{l}*alpha&lt;br&gt;\)&lt;br&gt;其中l为当前节点与中心节点距离，v为当前节点，c为当前节点所在簇的中心节点，r为事先规定好的节点的半径。" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-54" value="进行聚集力的计算。先找出每个省的中心点，之后令该省的所有节点都靠近此中心节点。&lt;br&gt;\(v.vx = v.vx-(v.x-c.x)*\frac{(l-r)}{l}*alpha&lt;br&gt;\)&lt;br&gt;其中l为当前节点与中心节点距离，v为当前节点，c为当前节点所在簇的中心节点，r为事先规定好的节点的半径。" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="109" y="1211" width="741" height="67" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-56" target="dBfdr0uVigZmpY6Dn77D-58">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dBfdr0uVigZmpY6Dn77D-56" target="dBfdr0uVigZmpY6Dn77D-58" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-56" value="进行节点分层计算。根据用户事先设定好的设备类型优先级，设备网络类型优先级进行排序。具体算法如下：&lt;br&gt;1、先将当前所有节点的{A属性，B属性}去重并排序放入数组中，排序方法为先比较A属性优先级，之后再比较B属性优先级。&lt;br&gt;2、遍历数组，将“A属性-B属性”作为键，在数组中下标作为值，得出当前的组合属性优先级规则并放入字典中。遍历全部节点数组，得到当前节点的属性优先级规则，从字典中取得相应优先级作为层数。&lt;br&gt;3、设置节点在屏幕中的坐标。公式为\(v.y= (v.layer-maxLayer/2)*levelDis\),其中v.layer为当前节点的层级，maxLayer为最大层级，levelDis 为层间距离" style="whiteSpace=wrap;html=1;rounded=0;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-56" value="进行节点分层计算。根据用户事先设定好的设备类型优先级，设备网络类型优先级进行排序。具体算法如下：&lt;br&gt;1、先将当前所有节点的{A属性，B属性}去重并排序放入数组中，排序方法为先比较A属性优先级，之后再比较B属性优先级。&lt;br&gt;2、遍历数组，将“A属性-B属性”作为键，在数组中下标作为值，得出当前的组合属性优先级规则并放入字典中。遍历全部节点数组，得到当前节点的属性优先级规则，从字典中取得相应优先级作为层数。&lt;br&gt;3、设置节点在屏幕中的坐标。公式为\(v.y= (v.layer-maxLayer/2)*levelDis\),其中v.layer为当前节点的层级，maxLayer为最大层级，levelDis 为层间距离" style="whiteSpace=wrap;html=1;rounded=0;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="129.5" y="1309" width="700" height="97" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-58">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dBfdr0uVigZmpY6Dn77D-58" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="561" y="958" as="targetPoint" />
             <Array as="points">
@@ -136,70 +136,70 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-58" value="进行节点移动位置的计算。在每一次迭代中，计算当前的alpha值，使alpha不断衰减.\(alpha= alpha+&amp;nbsp; (alphaTarget – alpha)* alphaDecay\)&lt;br&gt;其中alphaDecay 表示 alpha每次的衰减率,衰减系数决定了布局冷却的快慢，alphaTarget为最终稳定时的状态。&lt;br&gt;将alpha传进斥力、引力及聚集力中，得到当前合力作用下的节点速度。更新此时节点位置&lt;br&gt;\(v.x=v.x+v.vx\)&lt;br&gt;不断进行此步骤，直到alpha小于事先设定好的阈值������������������ℎ������������������������，停止迭代，完成布局。" style="whiteSpace=wrap;html=1;align=center;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-58" value="进行节点移动位置的计算。在每一次迭代中，计算当前的alpha值，使alpha不断衰减.\(alpha= alpha+&amp;nbsp; (alphaTarget – alpha)* alphaDecay\)&lt;br&gt;其中alphaDecay 表示 alpha每次的衰减率,衰减系数决定了布局冷却的快慢，alphaTarget为最终稳定时的状态。&lt;br&gt;将alpha传进斥力、引力及聚集力中，得到当前合力作用下的节点速度。更新此时节点位置&lt;br&gt;\(v.x=v.x+v.vx\)&lt;br&gt;不断进行此步骤，直到alpha小于事先设定好的阈值������������������ℎ������������������������，停止迭代，完成布局。" style="whiteSpace=wrap;html=1;align=center;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="121.31" y="1432" width="716.37" height="94" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-60" value="alpha&amp;lt;alphaMin?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-60" value="alpha&amp;lt;alphaMin?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="389.37" y="938" width="171.25" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-68" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-60" target="dBfdr0uVigZmpY6Dn77D-48">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-68" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="dBfdr0uVigZmpY6Dn77D-60" target="dBfdr0uVigZmpY6Dn77D-48" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="570" y="950" as="sourcePoint" />
             <mxPoint x="600" y="970" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-69" value="N" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="dBfdr0uVigZmpY6Dn77D-68">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-69" value="N" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="dBfdr0uVigZmpY6Dn77D-68" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-72" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-60" target="dBfdr0uVigZmpY6Dn77D-74">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-72" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="dBfdr0uVigZmpY6Dn77D-60" target="dBfdr0uVigZmpY6Dn77D-74" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="266.23" y="930" as="sourcePoint" />
             <mxPoint x="240" y="920" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-73" value="Y" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="dBfdr0uVigZmpY6Dn77D-72">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-73" value="Y" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="dBfdr0uVigZmpY6Dn77D-72" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-74" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-74" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="91" y="942" width="106" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-96" target="dBfdr0uVigZmpY6Dn77D-98">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dBfdr0uVigZmpY6Dn77D-96" target="dBfdr0uVigZmpY6Dn77D-98" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-96" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-96" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="431.44000000000005" y="1665" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-98" target="dBfdr0uVigZmpY6Dn77D-109">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dBfdr0uVigZmpY6Dn77D-98" target="dBfdr0uVigZmpY6Dn77D-109" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-98" value="初始化布局，添加节点的坐标属性，系数alpha，系数最小值alphaMin" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-98" value="初始化布局，添加节点的坐标属性，系数alpha，系数最小值alphaMin" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="281" y="1705" width="410.88" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-100" target="dBfdr0uVigZmpY6Dn77D-102">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dBfdr0uVigZmpY6Dn77D-100" target="dBfdr0uVigZmpY6Dn77D-102" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-100" value="对斥力进行计算。改进斥力计算方法。引入地理距离变量。&lt;br&gt;\(wx = v.x-u.x,&lt;br&gt;ratio = dis/averDis,&lt;br&gt;&amp;nbsp;v.vx = v.vx+ \frac{wx*alpha*ratio^2}{dist}\)" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="241.94" y="1812" width="489" height="68" as="geometry" />
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-100" value="对斥力进行计算。改进斥力计算方法。引入地理距离变量。&lt;br&gt;$$wx = v.x-u.x,&lt;br&gt;ratio = averDis/dis,&lt;br&gt;&amp;nbsp;v.vx = v.vx+ \frac{wx*alpha*ratio^2}{dist}$$" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="229.94" y="1813" width="510.06" height="69" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-102" target="dBfdr0uVigZmpY6Dn77D-104">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dBfdr0uVigZmpY6Dn77D-102" target="dBfdr0uVigZmpY6Dn77D-104" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-102" value="对引力进行计算。改进引力计算方法。引入偏移度的概念，计算每个节点的(出度)/(出度+入度)，以此来减小对于度较大节点的引力，提高稳定性。&lt;br&gt;`wx = v.x&amp;nbsp; - u.x,bias=\frac{count(src[i])}{count(src[i])+count(tar[i])}`&lt;br&gt;` v.vx=v.vx-x*alpha*bias[i],u.vx=u.vx+x*alpha*(1-bias[i])`" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="142.65" y="1905" width="686.69" height="82" as="geometry" />
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-102" value="对引力进行计算。改进引力计算方法。引入偏移度的概念，计算每个节点的(出度)/(出度+入度)，以此来减小对于度较大节点的引力，提高稳定性。&lt;br&gt;$$wx = v.x&amp;nbsp; - u.x,bias=\frac{count(src[i])}{count(src[i])+count(tar[i])},&lt;br&gt;&amp;nbsp;v.vx=v.vx-wx*alpha*bias[i],u.vx=u.vx+wx*alpha*(1-bias[i])$$" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="88.44" y="1900" width="796" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-104" target="dBfdr0uVigZmpY6Dn77D-106">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dBfdr0uVigZmpY6Dn77D-104" target="dBfdr0uVigZmpY6Dn77D-106" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-104" value="进行聚集力的计算。先找出每个省的中心点，之后令该省的所有节点都靠近此中心节点。&lt;br&gt;\(v.vx = v.vx-(v.x-c.x)*\frac{(l-r)}{l}*alpha&lt;br&gt;\)" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-104" value="进行聚集力的计算。先找出每个省的中心点，之后令该省的所有节点都靠近此中心节点。&lt;br&gt;\(v.vx = v.vx-(v.x-c.x)*\frac{(l-r)}{l}*alpha&lt;br&gt;\)" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="130.57" y="2018" width="710.84" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-106" target="dBfdr0uVigZmpY6Dn77D-108">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dBfdr0uVigZmpY6Dn77D-106" target="dBfdr0uVigZmpY6Dn77D-108" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-106" value="进行节点分层计算。根据用户事先设定好的设备类型优先级，设备网络类型优先级进行排序。具体算法如下：&lt;br&gt;1、先将当前所有节点的{A属性，B属性}去重并排序放入数组中。&lt;br&gt;2、遍历数组，将“A属性-B属性”作为键，在数组中下标作为值，得出当前的组合属性优先级规则并放入字典中。遍历全部节点数组，得到当前节点的属性优先级属性值。&lt;br&gt;3、设置节点在屏幕中的坐标。公式为\(v.y= (v.layer-maxLayer/2)*levelDis\)" style="whiteSpace=wrap;html=1;rounded=0;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-106" value="进行节点分层计算。根据用户事先设定好的设备类型优先级，设备网络类型优先级进行排序。具体算法如下：&lt;br&gt;1、先将当前所有节点的{A属性，B属性}去重并排序放入数组中。&lt;br&gt;2、遍历数组，将“A属性-B属性”作为键，在数组中下标作为值，得出当前的组合属性优先级规则并放入字典中。遍历全部节点数组，得到当前节点的属性优先级属性值。&lt;br&gt;3、设置节点在屏幕中的坐标。公式为\(v.y= (v.layer-maxLayer/2)*levelDis\)" style="whiteSpace=wrap;html=1;rounded=0;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="147.72" y="2104" width="677.44" height="82" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-108">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="dBfdr0uVigZmpY6Dn77D-108" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="572" y="1770" as="targetPoint" />
             <Array as="points">
@@ -208,80 +208,80 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-108" value="进行节点移动位置的计算。在每一次迭代中，计算当前的alpha值，使alpha不断衰减.\(alpha= alpha+&amp;nbsp; (alphaTarget – alpha)* alphaDecay\)&lt;br&gt;更新此时节点位置\(v.x=v.x+v.vx\)" style="whiteSpace=wrap;html=1;align=center;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-108" value="进行节点移动位置的计算。在每一次迭代中，计算当前的alpha值，使alpha不断衰减.\(alpha= alpha+&amp;nbsp; (alphaTarget – alpha)* alphaDecay\)&lt;br&gt;更新此时节点位置\(v.x=v.x+v.vx\)" style="whiteSpace=wrap;html=1;align=center;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="145.01999999999998" y="2217" width="682.84" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-109" value="alpha&amp;lt;alphaMin?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-109" value="alpha&amp;lt;alphaMin?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="400.37" y="1750" width="171.25" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-110" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-109" target="dBfdr0uVigZmpY6Dn77D-100">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-110" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="dBfdr0uVigZmpY6Dn77D-109" target="dBfdr0uVigZmpY6Dn77D-100" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="581" y="1762" as="sourcePoint" />
             <mxPoint x="611" y="1782" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-111" value="N" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="dBfdr0uVigZmpY6Dn77D-110">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-111" value="N" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="dBfdr0uVigZmpY6Dn77D-110" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-112" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-109" target="dBfdr0uVigZmpY6Dn77D-114">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-112" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="dBfdr0uVigZmpY6Dn77D-109" target="dBfdr0uVigZmpY6Dn77D-114" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="277.23" y="1742" as="sourcePoint" />
             <mxPoint x="251" y="1732" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-113" value="Y" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="dBfdr0uVigZmpY6Dn77D-112">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-113" value="Y" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="dBfdr0uVigZmpY6Dn77D-112" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-114" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-114" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="102" y="1754" width="106" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-119" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-117" target="dBfdr0uVigZmpY6Dn77D-118">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-119" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dBfdr0uVigZmpY6Dn77D-117" target="dBfdr0uVigZmpY6Dn77D-118" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-117" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-117" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="620" y="2360" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-121" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-118" target="dBfdr0uVigZmpY6Dn77D-120">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-121" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dBfdr0uVigZmpY6Dn77D-118" target="dBfdr0uVigZmpY6Dn77D-120" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-118" value="计算双平面中每个平面节点数量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-118" value="计算双平面中每个平面节点数量" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="480" y="2439" width="440" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-123" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-120" target="dBfdr0uVigZmpY6Dn77D-122">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-123" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dBfdr0uVigZmpY6Dn77D-120" target="dBfdr0uVigZmpY6Dn77D-122" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-120" value="将节点放入其所在的平面数组中，赋予唯一编号" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-120" value="将节点放入其所在的平面数组中，赋予唯一编号" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="485" y="2533" width="430" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-125" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-122" target="dBfdr0uVigZmpY6Dn77D-124">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-125" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dBfdr0uVigZmpY6Dn77D-122" target="dBfdr0uVigZmpY6Dn77D-124" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-122" value="对每一个平面数组，将其中每个节点的编号放缩到[0,2π]的范围内,取得其极角θ" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-122" value="对每一个平面数组，将其中每个节点的编号放缩到[0,2π]的范围内,取得其极角θ" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="480" y="2627" width="440" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-127" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-124" target="dBfdr0uVigZmpY6Dn77D-126">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-127" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dBfdr0uVigZmpY6Dn77D-124" target="dBfdr0uVigZmpY6Dn77D-126" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-124" value="获得所在区域的边长l，以其作为单个平面的直径r，使平局具有自适应性" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-124" value="获得所在区域的边长l，以其作为单个平面的直径r，使平局具有自适应性" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="475" y="2717" width="450" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-133" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-126" target="dBfdr0uVigZmpY6Dn77D-136">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-133" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dBfdr0uVigZmpY6Dn77D-126" target="dBfdr0uVigZmpY6Dn77D-136" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="728.2033333333333" y="2832" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-126" value="遍历每个节点，设置其坐标&lt;br&gt;\(v.x=r*cosθ/π\)&lt;br&gt;\(v.z=r*sinθ/π\)&lt;br&gt;\(v.y=l/4\)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-126" value="遍历每个节点，设置其坐标&lt;br&gt;\(v.x=r*cosθ/π\)&lt;br&gt;\(v.z=r*sinθ/π\)&lt;br&gt;\(v.y=l/4\)" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="480" y="2796" width="440" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-135" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dBfdr0uVigZmpY6Dn77D-136" target="dBfdr0uVigZmpY6Dn77D-134">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-135" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="dBfdr0uVigZmpY6Dn77D-136" target="dBfdr0uVigZmpY6Dn77D-134" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="728.2033333333333" y="2867" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-134" value="结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-134" value="结束" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="635" y="2990" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dBfdr0uVigZmpY6Dn77D-136" value="进行布局" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dBfdr0uVigZmpY6Dn77D-136" value="进行布局" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="495" y="2900" width="410" height="30" as="geometry" />
         </mxCell>
       </root>
