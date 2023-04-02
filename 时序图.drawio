@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-31T13:50:21.230Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="JCJys-6hglp4NjPL5xlh" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-02T09:34:49.753Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="10vgRUzg3pG7VveY25RP" version="21.1.1" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="1509" dy="796" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
+    <mxGraphModel dx="9560" dy="5040" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -810,7 +810,7 @@
         <mxCell id="aAOKXZG77H5b2a9XgO_C-14" value="数据库持久化" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="541.98" y="5331" width="183.5" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="f7T5nF4KvnpOOMf91of8-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.764;entryY=0.018;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="aAOKXZG77H5b2a9XgO_C-19" target="aAOKXZG77H5b2a9XgO_C-5">
+        <mxCell id="f7T5nF4KvnpOOMf91of8-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.764;entryY=0.018;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" parent="1" source="aAOKXZG77H5b2a9XgO_C-19" target="aAOKXZG77H5b2a9XgO_C-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aAOKXZG77H5b2a9XgO_C-19" value="仿真实例管理模块" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B9D7EA;strokeColor=#B9D7EA;" parent="1" vertex="1">
@@ -825,7 +825,7 @@
         <mxCell id="aAOKXZG77H5b2a9XgO_C-22" value="Kubernetes管理" style="text;html=1;strokeColor=#B9D7EA;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="481.64" y="5151" width="170.83923154701716" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="aAOKXZG77H5b2a9XgO_C-23" value="命名空间管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B9D7EA;strokeColor=#6C8EBF;" parent="1" vertex="1">
+        <mxCell id="aAOKXZG77H5b2a9XgO_C-23" value="命名空间信息查看" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B9D7EA;strokeColor=#6C8EBF;" parent="1" vertex="1">
           <mxGeometry x="640.8311021233569" y="5128" width="126.83518705763397" height="26" as="geometry" />
         </mxCell>
         <mxCell id="aAOKXZG77H5b2a9XgO_C-24" value="pod管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B9D7EA;strokeColor=#6C8EBF;" parent="1" vertex="1">
@@ -849,7 +849,7 @@
         <mxCell id="aAOKXZG77H5b2a9XgO_C-31" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B9D7EA;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="481.64" y="5021" width="319.99999999999994" height="71" as="geometry" />
         </mxCell>
-        <mxCell id="aAOKXZG77H5b2a9XgO_C-32" value="拓扑可视化算法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="aAOKXZG77H5b2a9XgO_C-32" value="拓扑布局算法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="578.7434482758621" y="5021" width="130.20689655172413" height="21" as="geometry" />
         </mxCell>
         <mxCell id="aAOKXZG77H5b2a9XgO_C-33" value="分层力导引布局算法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B9D7EA;strokeColor=#6c8ebf;" parent="1" vertex="1">
@@ -861,7 +861,7 @@
         <mxCell id="aAOKXZG77H5b2a9XgO_C-35" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B9D7EA;strokeColor=#B9D7EA;" parent="1" vertex="1">
           <mxGeometry x="481.64" y="4901" width="320" height="97" as="geometry" />
         </mxCell>
-        <mxCell id="aAOKXZG77H5b2a9XgO_C-36" value="网络拓扑编辑模块" style="text;html=1;strokeColor=#B9D7EA;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="aAOKXZG77H5b2a9XgO_C-36" value="拓扑可视化编辑模块" style="text;html=1;strokeColor=#B9D7EA;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="492.56150170648465" y="4913.597402597403" width="140.88737201365183" height="22.675324675324678" as="geometry" />
         </mxCell>
         <mxCell id="aAOKXZG77H5b2a9XgO_C-37" value="配置结果展示" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B9D7EA;strokeColor=#6C8EBF;" parent="1" vertex="1">
