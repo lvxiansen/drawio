@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-02T09:34:49.753Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="10vgRUzg3pG7VveY25RP" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-19T14:28:01.700Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="O1EXKAEaFH14G8bojG1s" version="21.1.2" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="9560" dy="5040" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="756" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -840,11 +840,8 @@
         <mxCell id="aAOKXZG77H5b2a9XgO_C-27" value="&amp;nbsp;仿真网络布局展示及交互" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B9D7EA;strokeColor=#6C8EBF;" parent="1" vertex="1">
           <mxGeometry x="865.14" y="4985" width="210.22" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="aAOKXZG77H5b2a9XgO_C-29" value="节点搜索" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B9D7EA;strokeColor=#6C8EBF;" parent="1" vertex="1">
-          <mxGeometry x="982" y="5025.5" width="112" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="aAOKXZG77H5b2a9XgO_C-30" value="节点信息查看" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B9D7EA;strokeColor=#6C8EBF;" parent="1" vertex="1">
-          <mxGeometry x="843" y="5025.5" width="113.57" height="26" as="geometry" />
+        <mxCell id="aAOKXZG77H5b2a9XgO_C-30" value="节点交互" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B9D7EA;strokeColor=#6C8EBF;" parent="1" vertex="1">
+          <mxGeometry x="866" y="5025.5" width="209" height="26" as="geometry" />
         </mxCell>
         <mxCell id="aAOKXZG77H5b2a9XgO_C-31" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B9D7EA;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="481.64" y="5021" width="319.99999999999994" height="71" as="geometry" />
