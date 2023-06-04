@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-19T14:28:01.700Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="O1EXKAEaFH14G8bojG1s" version="21.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-04T08:16:27.552Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="hbD7IymtfbFb4VLp0FJc" version="21.3.5" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1434" dy="756" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
@@ -822,14 +822,14 @@
         <mxCell id="aAOKXZG77H5b2a9XgO_C-21" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B9D7EA;strokeColor=#B9D7EA;" parent="1" vertex="1">
           <mxGeometry x="481.64" y="5121" width="320" height="72.5" as="geometry" />
         </mxCell>
-        <mxCell id="aAOKXZG77H5b2a9XgO_C-22" value="Kubernetes管理" style="text;html=1;strokeColor=#B9D7EA;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="aAOKXZG77H5b2a9XgO_C-22" value="Kubernetes资源信息查看模块" style="text;html=1;strokeColor=#B9D7EA;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="481.64" y="5151" width="170.83923154701716" height="22" as="geometry" />
         </mxCell>
         <mxCell id="aAOKXZG77H5b2a9XgO_C-23" value="命名空间信息查看" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B9D7EA;strokeColor=#6C8EBF;" parent="1" vertex="1">
-          <mxGeometry x="640.8311021233569" y="5128" width="126.83518705763397" height="26" as="geometry" />
+          <mxGeometry x="656.5511021233569" y="5128" width="126.83518705763397" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="aAOKXZG77H5b2a9XgO_C-24" value="pod管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B9D7EA;strokeColor=#6C8EBF;" parent="1" vertex="1">
-          <mxGeometry x="646.0080485338725" y="5163" width="113.8928210313448" height="25" as="geometry" />
+        <mxCell id="aAOKXZG77H5b2a9XgO_C-24" value="pod信息查看" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B9D7EA;strokeColor=#6C8EBF;" parent="1" vertex="1">
+          <mxGeometry x="665.2480485338725" y="5163.5" width="113.8928210313448" height="25" as="geometry" />
         </mxCell>
         <mxCell id="aAOKXZG77H5b2a9XgO_C-25" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B9D7EA;strokeColor=#B9D7EA;" parent="1" vertex="1">
           <mxGeometry x="832.28" y="4944" width="270" height="120" as="geometry" />
@@ -837,7 +837,7 @@
         <mxCell id="aAOKXZG77H5b2a9XgO_C-26" value="仿真交互模块" style="text;html=1;strokeColor=#B9D7EA;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="892.0685714285714" y="4953.91" width="150.85714285714286" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="aAOKXZG77H5b2a9XgO_C-27" value="&amp;nbsp;仿真网络布局展示及交互" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B9D7EA;strokeColor=#6C8EBF;" parent="1" vertex="1">
+        <mxCell id="aAOKXZG77H5b2a9XgO_C-27" value="&amp;nbsp;仿真网络拓扑布局展示及交互" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B9D7EA;strokeColor=#6C8EBF;" parent="1" vertex="1">
           <mxGeometry x="865.14" y="4985" width="210.22" height="26" as="geometry" />
         </mxCell>
         <mxCell id="aAOKXZG77H5b2a9XgO_C-30" value="节点交互" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B9D7EA;strokeColor=#6C8EBF;" parent="1" vertex="1">
